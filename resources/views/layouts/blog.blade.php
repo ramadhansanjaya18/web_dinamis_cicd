@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        @isset($title)
-            {{ ucfirst($title) }} -
-        @endisset
-        {{ config('app.name') }}
+       CICD TUGAS
     </title>
 
     @vite(['resources/css/blog.css', 'resources/js/blog.js'])
